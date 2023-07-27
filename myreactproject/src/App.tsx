@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from './components/button';
+import GuestCard from './components/guestcard';
 
 function App() {
   return (
     <div className="App">
-      <Button/>
+      <GuestCard/>
     </div>
   );
 }
