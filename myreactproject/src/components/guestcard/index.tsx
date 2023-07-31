@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "../button";
+import './style.scss'
 
 class GuestCard extends React.Component {
     render() {
         return(
-            <form>
-                <div>
+            <form className="novaTarefa">
+                <div className="inputContainer">
                     <label htmlFor="task">
                         Adicione um novo estudo
                     </label>
@@ -18,7 +19,7 @@ class GuestCard extends React.Component {
                     />
                 </div>
 
-                <div>
+                <div className="inputContainer">
                     <label htmlFor="time">
                         Tempo
                     </label>
